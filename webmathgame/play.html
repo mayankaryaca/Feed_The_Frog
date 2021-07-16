@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Feed the frog</title>
+</head>
+<body>
+    <div class="menu">
+        <h1>Feed the frog</h1>
+    
+        <div class="game-over-container hidden">
+            <p class="game-over">Game over</p>
+            <button id="play-again">Play Again</button>
+            <button id="high-scores">High Scores</button>
+            <button id="home">Home</button>
+            <p>Level reached : <span id="level-game-over"></span></p>
+        </div>
+
+        <section class="game">
+        <!-- add flys dinamically - different times -->
+        </section>
+        
+        <audio id="music" loop>
+            <source src="assets/audio/Rivers-of-Jewels.mp3" type="audio/mpeg">
+        </audio>
+         <a id="btn-music" class="btn-music">
+            <img id="img-music" class="img-music" src="assets/icon/no-sound.jpeg">
+        </a>
+
+        <div class="results"> 
+            <p>Level <span id="level">1</span> of 5</p>
+            <p>Time Remaining: <span id="remaining">60</span> seconds</p>
+        </div>
+        
+    </div>
+
+    <script type="text/javascript" src="js/game.js">  </script>
+</body>
+</html>

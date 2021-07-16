@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="data:,">
+    <title>Game - Feed the frog</title>
+</head>
+<body>
+    <div class="menu">
+        <h1>Feed the frog</h1>
+
+            <input type="text" id="player" placeholder="Enter player name"/>
+
+            <div class="output"></div>
+      
+
+        <div class="flex-box container-box">
+            <div class="content-box">
+                <button id="btn-start">Start</button>
+                <button id="btn-rules">View Rules</button>
+                <button id="btn-scores">High Scores</button>
+            </div>
+        </div>   
+        <img src="assets/img/frog_new.png">
+        <audio id="music" loop>
+            <source src="assets/audio/Rivers-of-Jewels.mp3" type="audio/mpeg">
+        </audio>
+         <a id="btn-music" class="btn-music">
+            <img id="img-music" class="img-music" src="assets/icon/no-sound.jpeg">
+        </a>
+    </div>
+
+    <script type="text/javascript" src="js/menu.js"></script>
+</body>
+</html>
